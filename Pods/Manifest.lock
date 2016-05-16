@@ -1,0 +1,13 @@
+PODS:
+  - Alamofire (3.4.0)
+  - MapleBacon (2.0.8)
+
+DEPENDENCIES:
+  - Alamofire
+  - MapleBacon
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  MapleBacon: 32e3590e1730485b93f450283ff242f9444efc12
+
+COCOAPODS: 0.39.0

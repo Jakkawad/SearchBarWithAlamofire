@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B70DD2228A6B2A49E9B963A /* Pods_SearchBarWithAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1C46F55E49B78C05B4362F /* Pods_SearchBarWithAlamofire.framework */; };
 		848AE6EC1CE9B81F0001A596 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AE6EB1CE9B81F0001A596 /* AppDelegate.swift */; };
 		848AE6EE1CE9B81F0001A596 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AE6ED1CE9B81F0001A596 /* ViewController.swift */; };
 		848AE6F11CE9B81F0001A596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848AE6EF1CE9B81F0001A596 /* Main.storyboard */; };
 		848AE6F31CE9B81F0001A596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848AE6F21CE9B81F0001A596 /* Assets.xcassets */; };
 		848AE6F61CE9B81F0001A596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848AE6F41CE9B81F0001A596 /* LaunchScreen.storyboard */; };
+		848AE6FE1CE9B8290001A596 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 848AE6FD1CE9B8290001A596 /* Podfile */; };
+		848AE7001CE9BD570001A596 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848AE6FF1CE9BD570001A596 /* ProductItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		254B657F072D60DE7C29EAC8 /* Pods-SearchBarWithAlamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchBarWithAlamofire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchBarWithAlamofire/Pods-SearchBarWithAlamofire.debug.xcconfig"; sourceTree = "<group>"; };
 		848AE6E81CE9B81F0001A596 /* SearchBarWithAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchBarWithAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848AE6EB1CE9B81F0001A596 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848AE6ED1CE9B81F0001A596 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,10 @@
 		848AE6F21CE9B81F0001A596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848AE6F51CE9B81F0001A596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848AE6F71CE9B81F0001A596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848AE6FD1CE9B8290001A596 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		848AE6FF1CE9BD570001A596 /* ProductItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
+		D3940750F44BBC3174E965B7 /* Pods-SearchBarWithAlamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchBarWithAlamofire.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchBarWithAlamofire/Pods-SearchBarWithAlamofire.release.xcconfig"; sourceTree = "<group>"; };
+		EA1C46F55E49B78C05B4362F /* Pods_SearchBarWithAlamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchBarWithAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B70DD2228A6B2A49E9B963A /* Pods_SearchBarWithAlamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49ABE002EDA885A7190DEFD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				254B657F072D60DE7C29EAC8 /* Pods-SearchBarWithAlamofire.debug.xcconfig */,
+				D3940750F44BBC3174E965B7 /* Pods-SearchBarWithAlamofire.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		846D0550200F60FA870556D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA1C46F55E49B78C05B4362F /* Pods_SearchBarWithAlamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		848AE6DF1CE9B81F0001A596 = {
 			isa = PBXGroup;
 			children = (
+				848AE6FD1CE9B8290001A596 /* Podfile */,
 				848AE6EA1CE9B81F0001A596 /* SearchBarWithAlamofire */,
 				848AE6E91CE9B81F0001A596 /* Products */,
+				49ABE002EDA885A7190DEFD1 /* Pods */,
+				846D0550200F60FA870556D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +89,7 @@
 				848AE6F21CE9B81F0001A596 /* Assets.xcassets */,
 				848AE6F41CE9B81F0001A596 /* LaunchScreen.storyboard */,
 				848AE6F71CE9B81F0001A596 /* Info.plist */,
+				848AE6FF1CE9BD570001A596 /* ProductItem.swift */,
 			);
 			path = SearchBarWithAlamofire;
 			sourceTree = "<group>";
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 848AE6FA1CE9B81F0001A596 /* Build configuration list for PBXNativeTarget "SearchBarWithAlamofire" */;
 			buildPhases = (
+				49EDE32BBF0AF0DA4E5ABB46 /* Check Pods Manifest.lock */,
 				848AE6E41CE9B81F0001A596 /* Sources */,
 				848AE6E51CE9B81F0001A596 /* Frameworks */,
 				848AE6E61CE9B81F0001A596 /* Resources */,
+				B09DA7B3FA40C1C41E0BF8AD /* Embed Pods Frameworks */,
+				5A5240AB722BB3F4CC7A35CA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,17 +158,67 @@
 			files = (
 				848AE6F61CE9B81F0001A596 /* LaunchScreen.storyboard in Resources */,
 				848AE6F31CE9B81F0001A596 /* Assets.xcassets in Resources */,
+				848AE6FE1CE9B8290001A596 /* Podfile in Resources */,
 				848AE6F11CE9B81F0001A596 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49EDE32BBF0AF0DA4E5ABB46 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A5240AB722BB3F4CC7A35CA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchBarWithAlamofire/Pods-SearchBarWithAlamofire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B09DA7B3FA40C1C41E0BF8AD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchBarWithAlamofire/Pods-SearchBarWithAlamofire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		848AE6E41CE9B81F0001A596 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848AE7001CE9BD570001A596 /* ProductItem.swift in Sources */,
 				848AE6EE1CE9B81F0001A596 /* ViewController.swift in Sources */,
 				848AE6EC1CE9B81F0001A596 /* AppDelegate.swift in Sources */,
 			);
@@ -248,6 +331,7 @@
 		};
 		848AE6FB1CE9B81F0001A596 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 254B657F072D60DE7C29EAC8 /* Pods-SearchBarWithAlamofire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SearchBarWithAlamofire/Info.plist;
@@ -259,6 +343,7 @@
 		};
 		848AE6FC1CE9B81F0001A596 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3940750F44BBC3174E965B7 /* Pods-SearchBarWithAlamofire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SearchBarWithAlamofire/Info.plist;
@@ -287,6 +372,7 @@
 				848AE6FC1CE9B81F0001A596 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
